@@ -329,6 +329,8 @@ nav #menu{
     font-size: 2rem;
     color: #727272;
 }
+/* form style  */
+
 
 /* sponsor style  */
 .sponsors {
@@ -385,9 +387,9 @@ nav #menu{
     }
     .navigation #menu{
         display: block;
-        position: relative;
-        top:-3rem;
-        right: -26.5rem;
+        position: absolute;
+        top:7rem;
+        right: 1.3rem;
         opacity: 0;
         z-index: 2;
     }
@@ -397,18 +399,17 @@ nav #menu{
         display: block;
         position: absolute;
         z-index: 1;
-        top:7rem;
-        right: 2rem;
+        top:6.7rem;
+        right: 1rem;
     }
 
     .menu{
         position: absolute;
         flex-direction: column;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
         padding: 1rem 0;
         gap: 2rem;
         right: 0;
-        top:7rem;
         width: 0;
        
     }
