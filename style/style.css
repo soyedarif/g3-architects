@@ -1,0 +1,290 @@
+/* common style  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+/* header style  */
+/* navigation  */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 8.5rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10.2rem;
+    padding-top: 5rem;
+}
+
+.logo h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 4.4rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #424242;
+
+}
+
+/* hero section  */
+.hero-section {
+    text-align: center;
+}
+
+.hero-info {
+    padding: 0 21rem;
+    margin-bottom: 5rem;
+}
+
+.hero-title {
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 3.2rem;
+
+}
+
+.hero-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 2.1rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+}
+
+.hero-img {
+    max-width: 100%;
+    margin-bottom: 5rem;
+}
+
+/* feature explore section  */
+.feature-explore {
+    display: flex;
+    padding: 0 3.05rem;
+    align-items: center;
+    gap: 7.3rem;
+    margin-bottom: 10.3rem;
+
+}
+
+.fe-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem
+}
+
+.fe-title {
+    font-size: 4.4rem;
+    color: #727272;
+    margin-bottom: 2.4rem;
+
+}
+
+.fe-title span:first-child {
+    color: #131313;
+    font-weight: 700;
+}
+
+.fe-title span:nth-child(3) {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.fe-description {
+    color: #727272;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 3.2rem;
+}
+
+/* more feature style  */
+.more-features {
+    display: flex;
+    justify-content: space-between;
+    gap: 14.6rem;
+    align-items: center;
+    margin-bottom: 13rem;
+}
+
+.mf-title {
+    border-left: .5rem solid #FF900E;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 2.4rem;
+    padding-left: 2rem;
+}
+
+.mf-description {
+    color: #727272;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.feature {
+    margin-bottom: 2rem;
+    padding: 3rem;
+    box-shadow: 0 .4rem 3rem rgba(0, 0, 0, 0.06);
+}
+
+.feature-title {
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 1rem;
+}
+
+.feature-descrtiption {
+    font-size: 1.6rem;
+    color: #727272;
+    font-weight: 400;
+}
+
+.feature-img {
+    width: 160rem;
+    position: relative;
+}
+
+.feature-img img {
+    max-width: 100%;
+}
+
+.btn-feature {
+    padding: 4.5rem 4.2rem;
+    color: #FFF;
+    background-color: #FF900E;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-radius: 0.8rem;
+    position: absolute;
+    bottom: -8rem;
+    left: -8rem;
+}
+
+.btn-feature span {
+    font-size: 6.5rem;
+    font-weight: 700;
+
+}
+
+/* facts style  */
+.facts-title {
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #131313;
+    margin-bottom: 2.4rem;
+}
+
+.facts-description {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #727272;
+    margin-bottom: 10rem;
+}
+
+/* achievements style  */
+.achivements {
+    display: flex;
+    padding: 0 3.05rem;
+
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 18rem;
+}
+
+.achivement {
+    width: 24.1rem;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 3.5rem;
+}
+
+.a-title {
+    font-weight: 600;
+    font-size: 4.5rem;
+    color: #424242;
+}
+
+.a-description {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #727272;
+}
+
+/* sponsor style  */
+.sponsors {
+    text-align: center;
+    margin-bottom: 13rem;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #131313;
+    margin-bottom: 2.4rem;
+}
+
+.sponsors-description {
+    font-size: 1.6rem;
+    color: #727272;
+    margin-bottom: 5rem;
+}
+
+.sponsor-logo {
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+/* footer style  */
+.footer{
+    text-align: center;
+    padding: 3.9rem;
+    font-weight: 400;
+    color: #424242;
+font-size: 2rem;
+background: #FFF4E7;
+margin-bottom: 20rem;
+}
