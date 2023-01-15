@@ -226,6 +226,19 @@ header {
 }
 
 /* achievements style  */
+@keyframes scaling{
+    0%{
+        transform: scale(1);
+    }
+   
+    50%{
+        transform: scale(1.4) rotate(-20deg);
+    }
+    
+    100%{
+        transform: scale(1);
+    }
+}
 .achivements {
     display: flex;
     padding: 0 3.05rem;
@@ -240,6 +253,12 @@ header {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 3.5rem;
+}
+.achivement:hover img{
+    animation-name: scaling;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
 
 .a-title {
@@ -287,4 +306,46 @@ header {
 font-size: 2rem;
 background: #FFF4E7;
 margin-bottom: 20rem;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .hero-info{
+        padding: 0 2rem;
+    }
+    .menu li{
+        margin-left: 2rem;
+    }
+    .navigation,.feature-explore, .more-features,.achivements,.sponsor-logo{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .achivement,.sponsor-logo img{
+        margin-bottom: 2rem;
+    }
+    .facts{
+        text-align: center;
+    }
+    .mf-info{
+        width: auto;
+    }
+    .fe-images{
+        grid-template-columns: repeat(1,1fr);
+        width: auto;
+    }
+   .feature-img{
+    width: auto;
+   }
+   .btn-feature{
+    right: 0;
+    left: 0;
+   }
+   .footer{
+    /* width: auto; */
+   }
 }
